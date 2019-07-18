@@ -105,7 +105,7 @@ break , continue
         2.  mac book    9000
         3.  coffee      32
         4.  python book    80
-        5.  bicyle         1500
+        5.  bicycle         1500
       >>>:1
          余额不足，-3000
       >>>:5
@@ -116,6 +116,10 @@ break , continue
       coffee    30
       您的余额为:2970
       欢迎下次光临
+
+       balance 余额
+      salary 工资
+      购物车列表 shopping trolley
 
 
 

@@ -47,34 +47,47 @@
 # print(a)
 # del a
 # print(a)
+
 # count：计算某元素出现次数
+
 # t = ["to","be","or","not","to","be"].count("to")
 # print(t)
 
 
-#extend
+# extend 扩展
+
 # a = [1,2,3]
 # b = [4,5,6]
 # a.extend(b)
 # print(a)
 # print(b)
 
-# index
-a = ["wuchao","jinxin","ligang","xiaohu","sanpang","wanghuan","ligang"]
+# index 根据内容找位置
+# a = ["wuchao","jinxin","ligang","xiaohu","sanpang","wanghuan","ligang"]
+#
+# first_lg_index = a.index("ligang")
+#
+# little_list = a[first_lg_index+1:]
+#
+# second_lg_index = little_list.index("ligang")
+# print(first_lg_index)
+# print(second_lg_index)
+# print(first_lg_index+second_lg_index)
 
-first_lg_index = a.index("ligang")
+# reverse 颠倒列表中的值
 
-little_list = a[first_lg_index+1:]
+# a = ["wuchao","jinxin","ligang","xiaohu","sanpang","wanghuan","ligang"]
+#
+# a.reverse()
+#
+# print(a)
 
-second_lg_index = little_list.index("ligang")
-print(first_lg_index)
-print(second_lg_index)
+#  sort 对列表进行排序
+x = [4,6,2,1,7,9]
+x.sort(reverse=True)
+print(x)
 
+a = ["wuchao","jinxin","Ligang","Xiaohu","sanpang","wanghuan","ligang"]
+a.sort()
 
-
-
-
-
-
-
-
+print("liyang" in a)
