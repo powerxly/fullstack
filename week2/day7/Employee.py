@@ -16,9 +16,20 @@ class Employee:
 
     def displayEmployee(self):
         print("Name:",self.name,",Salary:",self.salary)
-
+#创建Employee类的第一个对象
 emp1 = Employee("zara",2000)
+#创建Employee类的第一个对象
 emp2 = Employee("Manni",5000)
 
-emp1.emp2.displayCount()
+emp1.displayEmployee()
+emp2.displayEmployee()
+print("Total Employee %d" % Employee.empCount)
+
+emp1.age = 7
+emp1.age = 8
+hasattr(emp1,"age")
+setattr(emp1,'bigname',"hahaha")
+emp1.displayEmployee()
+print(emp1.bigname)
+
 
